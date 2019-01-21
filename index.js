@@ -14,7 +14,6 @@ module.exports = (text) => {
                 let compare = text.substring(j,j+repeated.length);
 
                 if(compare === repeated){
-                    console.log("repeated: " + repeated + " is compared by: " + compare + " index: " + j);
                 }else{
                     flag_repeated = false;
                     break;
@@ -22,7 +21,6 @@ module.exports = (text) => {
             }
 
             if(flag_repeated){
-                console.log("finally repeated is: " + repeated);
                 let repeatCount = text.length / repeated.length;
                 return {repeated: repeated, 
                         count: repeatCount};
