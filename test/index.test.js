@@ -1,4 +1,4 @@
-const reverseRepeat = require('./index');
+const reverseRepeat = require('../src/index');
 
 test('basic test', () => {
     expect(reverseRepeat("qwe".repeat(18))).toEqual({
@@ -23,4 +23,14 @@ test('test with 2 repeats', () => {
     expect(reverseRepeat("qwe".repeat(2))).toEqual({
         repeated: "qwe", 
         count: 2});
+  });
+
+test('empty input', () => {
+    expect(reverseRepeat("")).toEqual({
+        repeated: "", 
+        count: 1});
+  });
+
+  test('undefined input', () => {
+    expect(reverseRepeat(undefined)).toEqual(undefined);
   });
