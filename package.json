@@ -1,6 +1,6 @@
 {
   "name": "reverse-repeat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a reversed approach to the javascript's \"repeat\" method",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/umutcanbolat/reverse-repeat/issues"
   },
-  "homepage": "https://github.com/umutcanbolat/reverse-repeat#readme"
+  "homepage": "https://github.com/umutcanbolat/reverse-repeat#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }

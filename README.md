@@ -1,10 +1,14 @@
-# reverse-repeat
-a reversed approach to the javascript's [repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) method
+# reverse-repeat &middot;  [![npm version](https://badge.fury.io/js/reverse-repeat.svg)](https://badge.fury.io/js/reverse-repeat)
+A reversed approach to the javascript's [repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) method.
 
 ## Install
 
 ```sh
 npm install reverse-repeat --save
+```
+
+```sh
+yarn add reverse-repeat
 ```
 
 ## Usage

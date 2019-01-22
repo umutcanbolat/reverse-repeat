@@ -1,6 +1,13 @@
 module.exports = (text) => {
+    // type check
+    if(typeof text === "undefined"){
+        return text;
+    }else if(typeof text !== "string"){
+        text = text.toString();
+    }
+
     // will not check strings which is longer than the half of the original string
-    for(let i=1 ; i<text.length/2 ; i++){
+    for(let i=1 ; i<=text.length/2 ; i++){
         // check strings which can divide original strings without reminder
         if(text.length % i === 0){
             // repeated: potential repeated string
@@ -27,4 +34,8 @@ module.exports = (text) => {
             }
         }
     }
+
+    // if no repeats found, then return the input itself
+    return {repeated: text, 
+             count: 1};
 }
