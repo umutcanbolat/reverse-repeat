@@ -1,10 +1,11 @@
 {
   "name": "reverse-repeat",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "a reversed approach to the javascript's \"repeat\" method",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "pretest": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
   },
   "homepage": "https://github.com/umutcanbolat/reverse-repeat#readme",
   "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
     "jest": "^23.6.0"
   },
   "dependencies": {},
