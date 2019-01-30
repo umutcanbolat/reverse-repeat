@@ -10,3 +10,5 @@ cache:
   bundle: true
   directories:
     - node_modules
+script:
+  - npm test -- --coverage
