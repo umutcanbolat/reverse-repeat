@@ -1,4 +1,4 @@
-# reverse-repeat &middot;  [![npm version](https://badge.fury.io/js/reverse-repeat.svg)](https://badge.fury.io/js/reverse-repeat) [![Coverage Status](https://coveralls.io/repos/github/umutcanbolat/reverse-repeat/badge.svg?branch=master)](https://coveralls.io/github/umutcanbolat/reverse-repeat?branch=master) [![CircleCI](https://circleci.com/gh/umutcanbolat/reverse-repeat/tree/master.svg?style=svg)](https://circleci.com/gh/umutcanbolat/reverse-repeat/tree/master)
+# reverse-repeat &middot;  [![npm version](https://badge.fury.io/js/reverse-repeat.svg)](https://badge.fury.io/js/reverse-repeat) [![codecov](https://codecov.io/gh/umutcanbolat/reverse-repeat/branch/master/graph/badge.svg)](https://codecov.io/gh/umutcanbolat/reverse-repeat) [![Build Status](https://travis-ci.org/umutcanbolat/reverse-repeat.svg?branch=master)](https://travis-ci.org/umutcanbolat/reverse-repeat)
 A reversed approach to the javascript's [repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) method.
 
 ## Install
