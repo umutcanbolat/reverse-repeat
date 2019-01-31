@@ -1,4 +1,10 @@
-# reverse-repeat &middot;  [![npm version](https://badge.fury.io/js/reverse-repeat.svg)](https://badge.fury.io/js/reverse-repeat) [![codecov](https://codecov.io/gh/umutcanbolat/reverse-repeat/branch/master/graph/badge.svg)](https://codecov.io/gh/umutcanbolat/reverse-repeat) [![Build Status](https://travis-ci.org/umutcanbolat/reverse-repeat.svg?branch=master)](https://travis-ci.org/umutcanbolat/reverse-repeat)
+# reverse-repeat
+
+[![Build status](https://img.shields.io/travis/umutcanbolat/reverse-repeat/master.svg?style=flat)](https://travis-ci.org/umutcanbolat/reverse-repeat)
+[![Test coverage](https://img.shields.io/codecov/c/github/umutcanbolat/reverse-repeat.svg?style=flat)](https://codecov.io/gh/umutcanbolat/reverse-repeat)
+[![NPM version](https://img.shields.io/npm/v/reverse-repeat.svg?style=flat)](https://www.npmjs.com/package/reverse-repeat)
+[![NPM Downloads](https://img.shields.io/npm/dm/reverse-repeat.svg?style=flat)](https://www.npmjs.com/package/reverse-repeat)
+
 A reversed approach to the javascript's [repeat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) method.
 
 ## Install
