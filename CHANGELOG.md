@@ -1,4 +1,4 @@
-## [v1.1.5](https://github.com/umutcanbolat/reverse-repeat/compare/v1.1.5...v1.1.6) (03-02-2019)
+## [v1.1.6](https://github.com/umutcanbolat/reverse-repeat/compare/v1.1.5...v1.1.6) (03-02-2019)
 
 ### Make up
 
