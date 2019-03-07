@@ -1,6 +1,6 @@
 {
   "name": "reverse-repeat",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "a reversed approach to the javascript's \"repeat\" method",
   "main": "src/index.js",
   "scripts": {
