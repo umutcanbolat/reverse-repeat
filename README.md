@@ -22,13 +22,24 @@ yarn add reverse-repeat
 ```javascript
 const reverseRepeat = require('reverse-repeat');
 
+'foobar'.repeat(3)
+//=> 'foobarfoobarfoobar'
+
+reverseRepeat('foobarfoobarfoobar').repeated
+//=> 'foobar'
+
+reverseRepeat('foobarfoobarfoobar').count
+//=> 3
+
 var chorus = 'Because I\'m happy. ';
+chorus.repeat(3);
+//=> 'Because I'm happy. Because I'm happy. Because I'm happy. '
 
-console.log('Chorus lyrics for "Happy": ' + chorus.repeat(3));
-// expected output: "Chorus lyrics for "Happy": Because I'm happy. Because I'm happy. Because I'm happy. "
+reverseRepeat(chorus.repeat(3));
+//=> { repeated: 'Because I\'m happy. ', count: 3 }
 
-console.log(reverseRepeat(chorus.repeat(3)));
-// expected output: "{ repeated: 'Because I\'m happy. ', count: 3 }"
+
+
 ```
 
 
