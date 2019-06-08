@@ -22,13 +22,13 @@ yarn add reverse-repeat
 ```javascript
 const reverseRepeat = require('reverse-repeat');
 
-'foobar'.repeat(3)
+'foobar'.repeat(3);
 //=> 'foobarfoobarfoobar'
 
-reverseRepeat('foobarfoobarfoobar').repeated
+reverseRepeat('foobarfoobarfoobar').repeated;
 //=> 'foobar'
 
-reverseRepeat('foobarfoobarfoobar').count
+reverseRepeat('foobarfoobarfoobar').count;
 //=> 3
 
 var chorus = 'Because I\'m happy. ';
