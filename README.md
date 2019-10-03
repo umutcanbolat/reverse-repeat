@@ -1,3 +1,5 @@
+**DEPRECATED REPO: This module has been renamed to unrepeat. Please use it instead. https://github.com/umutcanbolat/unrepeat**
+
 # reverse-repeat
 
 [![Build status](https://img.shields.io/travis/umutcanbolat/reverse-repeat/master.svg?style=flat)](https://travis-ci.org/umutcanbolat/reverse-repeat)
